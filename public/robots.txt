@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gdg-gtbit.netlify.app/
+
+# Sitemaps
+Sitemap: https://gdg-gtbit.netlify.app/sitemap.xml
