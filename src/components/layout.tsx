@@ -1,4 +1,6 @@
 import { ReactNode } from 'react';
+import Navbar from './common/navbar';
+import Footer from './common/footer';
 
 interface LayoutProps {
   children: ReactNode;
@@ -7,12 +9,9 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
-      <header>
-        {/* Add a header or navigation component */}
-        <nav>NAVBAR</nav>
-      </header>
+      <Navbar/>
       <main>{children}</main>
-      <footer>FOOTER</footer>
+      <Footer/>
     </div>
   );
 };
