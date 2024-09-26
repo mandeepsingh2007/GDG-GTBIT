@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://gdg-gtbit.netlify.app/
+Host: https://gdggtbit.in/
 
 # Sitemaps
-Sitemap: https://gdg-gtbit.netlify.app/sitemap.xml
+Sitemap: https://gdggtbit.in/sitemap.xml
