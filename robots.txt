@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gdg-gtbit.netlify.app/sitemap.xml
+Sitemap: https://gdggtbit.in/sitemap.xml
 

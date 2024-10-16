@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#2b2b2b] ">
+        <footer className="bg-[#232323] ">
             <div className="mx-auto max-w-screen-xl w-full p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
@@ -18,8 +19,8 @@ const Footer = () => {
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 justify-items-center">
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Achievements</h2>          
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Team</h2>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Projects</h2>
+                            <Link href={'/team'} className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Team</Link>
+                            <Link href={'/projects'} className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Projects</Link>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Events</h2>
                     </div>
                 </div>
