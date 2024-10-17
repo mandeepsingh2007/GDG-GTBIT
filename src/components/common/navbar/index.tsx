@@ -14,9 +14,9 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <button className="text-white border-2 border-white rounded-full px-4 py-2">
+        {/* <button className="text-white border-2 border-white rounded-full px-4 py-2">
           Menu
-        </button>
+        </button> */}
       </div>
     </nav>
   );
