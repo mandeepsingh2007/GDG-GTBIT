@@ -9,7 +9,7 @@ function Index() {
       <Banner />
 
       <div className="flex justify-center justify-items-center my-10 md:my-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[80vw] ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[70vw] ">
           {PROJECTS.map((project) => (
             <ProjectCard 
               key={project.name} 
