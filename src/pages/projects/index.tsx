@@ -4,7 +4,7 @@ import ProjectCard from '@/components/projects/card';
 import { PROJECTS, Project } from '@/constants/projects';
 import SearchBar from '@/components/projects/searchbar';
 
-const Index: React.FC = () => {
+const Index= () => {
   const [filteredProjects, setFilteredProjects] = useState<Project[]>(PROJECTS);
 
   const handleSearch = (keyword: string) => {

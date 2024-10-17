@@ -8,10 +8,9 @@ interface EventsCardInterface {
   image?: string;
 }
 
-const EventsCard = ({ title, description, link, date, image }: EventsCardInterface) => {
+const EventsCard = ({ title, description, link, date }: EventsCardInterface) => {
   return (
     <div className="max-w-sm p-6 bg-[#232323] rounded-xl shadow-lg text-[#ffffff]">
-      {image && <img src={image} alt={title} className="mb-4 rounded" />}
       <a href={link} target="_blank" rel="noopener noreferrer">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">{title}</h5>
       </a>

@@ -27,6 +27,7 @@ const ProjectCard = ({ title, description, link, colorIndex }: ProjectCardInterf
             rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-white rounded-lg focus:ring-4 focus:outline-none"
             style={{ backgroundColor: buttonColor }}
+          
           >
             View Details
         </Link>

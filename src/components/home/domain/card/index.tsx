@@ -18,7 +18,7 @@ const ResourceCard = ({ title, description }: ResourceCardProps) => {
       <div className="mt-auto">
         <Link href={`/resources/${title.toLowerCase().replace(/\s+/g, '-')}`}>
 
-          <p className="text-sm text-gray-500 italic">Explore more</p>
+          <p className="text-sm italic">Explore more</p>
         </Link>
 
       </div>

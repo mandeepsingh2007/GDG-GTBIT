@@ -17,9 +17,9 @@ function Index() {
 
 
       <div className="flex flex-col items-center my-10 md:my-20">
-        <h2 className="text-4xl font-bold text-white mb-4 w-[70vw]">Upcoming Events</h2>
+        <h2 className="text-4xl font-bold text-white mb-4 w-[80vw] md:w-[70vw]">Upcoming Events</h2>
         {upcomingEvents.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[70vw]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[90vw] md:w-[70vw]">
             {upcomingEvents.map(event => (
               <EventsCard key={event.id} title={event.title} description={event.description} link={event.link} date={event.date} image={event.image} />
             ))}
@@ -28,8 +28,8 @@ function Index() {
           <p className="text-white">None yet! Check back soon or follow us on social media to stay updated! 🤗</p>
         )}
 
-        <h2 className="text-4xl font-bold text-white my-10 w-[70vw]">Recent Events</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[70vw]">
+        <h2 className="text-4xl font-bold text-white my-10 w-[80vw] md:w-[70vw]">Recent Events</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-[90vw] md:w-[70vw]">
           {recentEvents.map(event => (
             <EventsCard key={event.id} title={event.title} description={event.description} link={event.link} date={event.date} image={event.image} />
           ))}

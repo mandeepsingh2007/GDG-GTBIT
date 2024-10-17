@@ -18,10 +18,9 @@ function Index() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {RESOURCE.map((resource, index) => (
             <ResourceCard 
-              key={index} 
-              title={resource.title} 
-              description={resource.description} 
-            />
+              key={index}
+              title={resource.title}
+              description={resource.description}         />
           ))}
         </div>
       </div>
