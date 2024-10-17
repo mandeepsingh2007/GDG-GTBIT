@@ -17,8 +17,8 @@ const Footer = () => {
                         />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white my-4">GDG GTBIT</span>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-5 justify-items-center">
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Achievements</h2>          
+                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 justify-items-center">
+                            {/* <Link href={'/achievements'} className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Achievements</Link>          */}
                             <Link href={'/team'} className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Team</Link>
                             <Link href={'/resources'} className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</Link>
                             <Link href={'/projects'} className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Projects</Link>

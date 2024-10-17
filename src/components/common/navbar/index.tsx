@@ -27,9 +27,9 @@ const Navbar = () => {
           <Link href={'/events'} className="text-white px-4 py-2">
             Events
           </Link>
-          <Link href={'/achievements'} className="text-white px-4 py-2">
+          {/* <Link href={'/achievements'} className="text-white px-4 py-2">
             Achievements
-          </Link>
+          </Link> */}
         </div>
 
         <div className='flex md:hidden'>
