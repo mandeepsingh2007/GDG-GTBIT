@@ -2,7 +2,7 @@ export const PROJECTS = [
         {
           name: "Hacktoberfest-2024-Webdev",
           link: "https://github.com/GDG-GTBIT/Hacktoberfest-2024-Webdev",
-          description: "A repository containing web development projects for participants to contribute to during Hacktoberfest 2024."
+          description: "A repository containing web development projects for participants."
         },
         {
           name: "Hacktoberfest-2024-Appdev",

@@ -8,7 +8,7 @@ interface ProjectCardInterface {
 
 const ProjectCard = ({ title, description, link } : ProjectCardInterface) => {
   return (
-    <div className="max-w-sm p-6 bg-[#232323]  rounded-xl shadow-lg text-[#ffffff]">
+    <div className="max-w-sm bg-[#232323]  p-6 rounded-2xl shadow-lg text-[#ffffff]">
       <a href={link} target="_blank" rel="noopener noreferrer">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">{title}</h5>
       </a>
