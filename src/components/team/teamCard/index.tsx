@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'; // Import email icon
 
 interface TeamCardProps {
@@ -29,32 +28,33 @@ const TeamCard = ({ name, position, linkedIn, github, email, colorIndex }: TeamC
       </div>
 
       <div className="mt-auto flex justify-center space-x-4">
-        <Link href={linkedIn} passHref target="_blank" rel="noopener noreferrer">
+        <a href={linkedIn} target="_blank" rel="noopener noreferrer">
           <div
             className="p-2 rounded-full hover:bg-blue-600 transition-colors"
             style={{ backgroundColor: cardBorderColor }} 
           >
             <FaLinkedin className="text-white" />
           </div>
-        </Link>
+        </a>
 
-        <Link href={github} passHref target="_blank" rel="noopener noreferrer">
+        <a href={github} target="_blank" rel="noopener noreferrer">
           <div
             className="p-2 rounded-full hover:bg-gray-500 transition-colors"
             style={{ backgroundColor: cardBorderColor }} 
           >
             <FaGithub className="text-white" />
           </div>
-        </Link>
+        </a>
 
-        <Link href={`mailto:${email}`} passHref>
+        {/* Update the mailto link */}
+        <a href={`mailto:${email}`}>
           <div
             className="p-2 rounded-full hover:bg-red-600 transition-colors"
             style={{ backgroundColor: cardBorderColor }} 
           >
             <FaEnvelope className="text-white" />
           </div>
-        </Link>
+        </a>
       </div>
     </div>
   );
