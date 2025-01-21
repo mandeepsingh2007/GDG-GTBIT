@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://gdggtbit.in/
-
-# Sitemaps
-Sitemap: https://gdggtbit.in/sitemap.xml
